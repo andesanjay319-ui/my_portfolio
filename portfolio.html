@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="portfolio.css">
+
+    <!-- Typed.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+
+<!-- ======================= NAVBAR ======================= -->
+<nav class="navbar" role="navigation" aria-label="Main navigation menu">
+    <div class="container">
+        <a href="#hero" class="logo">
+            <span class="highlight">Sanjay Kumar</span> Andhe 
+        </a>
+
+        <div class="nav-links" id="navLinks" role="menubar">
+            <a href="#about" role="menuitem">About</a>
+            <a href="#education" role="menuitem">Education</a>   <!-- Added Link -->
+            <a href="#skills" role="menuitem">Skills</a>
+            <a href="#projects" role="menuitem">Projects</a>
+            <a href="#contact" role="menuitem">Contact</a>
+
+            <button id="theme-toggle" aria-label="Toggle dark/light theme" role="switch">
+                <span class="icon-swap">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon" style="display: none;"></i>
+                </span>
+            </button>
+        </div>
+
+        <button class="burger-menu" id="burgerMenu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </button>
+    </div>
+</nav>
+
+<!-- ======================= MAIN CONTENT ======================= -->
+<main id="main-content">
+
+<!-- ================= HERO SECTION ================= -->
+<section id="hero" class="hero-section">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>FullStack Developer</h1>
+                <p class="lead">
+                    I craft high-performance, user-centric web experiences using modern frameworks,
+                    specializing in building <span id="dynamic-text" class="highlight">modern, fast</span> web applications.
+                </p>
+
+                <div class="social-links">
+                    <a href="https://github.com/andesanjay319-ui" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sanjay-kumar-andhe-622582382/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:andesanjay319@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+
+                <a href="#projects" class="btn btn-primary">View Projects <i class="fas fa-arrow-right"></i></a>
+
+                <a href="/assets/resume new.pdf" 
+                   target="_blank" 
+                   class="btn btn-secondary">
+                   Download Resume <i class="fas fa-download"></i>
+                </a>
+            </div>
+
+            <div class="hero-image">
+                <img src="/assets/1763116566074.jpg" 
+                     alt="Profile picture"
+                     class="profile-pic"
+                     width="300" 
+                     height="300">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<!-- ================= ABOUT SECTION ================= -->
+<section id="about" class="about-section">
+    <div class="container">
+        <h2>About Me</h2>
+
+        <div class="about-content">
+            <img src="/assets/about.png" class="about-img">
+
+            <div>
+                <h3>My Philosophy</h3>
+                <p>I am sanjaykumar Andhe i am from a highly motivated Bachelor of Technology graduate from Christu Jyouthi Institute of Technology and Science,Jangaon,Telangana.</p>
+                <p>With a strong passion for software development, I have honed my skills in Java, Python, HTML, CSS, and JavaScript through various hands-on projects.></p>
+                <p> My experience includes designing and developing a personal portfolio website and an eCommerce website, which showcase my ability to create responsive and dynamic web applications.</p>
+                <p> I am proficient in user authentication, data security, and advanced search and filtering options. Additionally, I hold certifications in Google Analytics and Data Studio. I am eager to contribute to a dynamic team, leveraging my strong communication, problem-solving, and creative skills to tackle challenging projects. Fluent in English and Gujarati</p>
+                <p>I am ready to bring my expertise to a collaborative and innovative work environment. Thank you for visiting my website. Feel free to contact me or connect with me on social media.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<!-- ================= EDUCATION SECTION (Added) ================= -->
+<section id="education" class="education-section">
+    <div class="container">
+        <h2>Education</h2>
+
+        <div class="education-list">
+
+            <div class="edu-item">
+                <h3>Bachelor of Technology (B.Tech)</h3>
+                <p><strong>Christu Jyothi Institute of Technology & Science, Jangaon</strong></p><br>
+                <p>Specialization: Electronic Communication & Engineering</p><br>
+                <p>Year: 2022 – 2026</p><br>
+            </div>
+
+
+    <div class="education-item">
+        <h3>Telangana Model School, Bachannapet</h3>
+        <p><strong>2019 – 2020</strong></p><br>
+        <p>Completed Secondary School Education</p><br>
+    </div>
+
+    <div class="education-item">
+        <h3>Telangana Intermediate College, Bachannapet</h3>
+        <p><strong>2020 – 2022</strong></p><br>
+        <p>Completed Intermediate (MPC)</p><br>
+    </div>
+</section>
+
+
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<!-- ================= SKILLS SECTION ================= -->
+<section id="skills" class="skills-section">
+    <div class="container">
+        <h2>My Skills</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-category">
+                <h3>Languages</h3>
+                <ul>
+                    <li><i class="fab fa-java"></i> Java </li>
+                    <li><i class="fab fa-python"></i> Python</li>
+                    <li><i class="fab fa-c"></i> C</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3>Frameworks</h3>
+                <ul>
+                    <li><i class="fab fa-html5"></i> HTML</li>
+                    <li><i class="fab fa-css3"></i> CSS</li>
+                    <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3>Tools</h3>
+                <ul>
+                    <li><i class="fab fa-git-alt"></i> Git / GitHub</li>
+                    <li><i class="fas fa-terminal"></i> Node.js / npm</li>
+                    <li><i class="fas fa-cubes"></i> Webpack / Vite</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<!-- ================ PROJECTS SECTION ================ -->
+<section id="projects" class="projects-section">
+    <div class="container">
+        <h2>Featured Projects</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <figure>
+                    <img src="/assets/lora main.jpg">
+                </figure>
+                <h3>Mini Project on LoRa Based Home Automation System</h3>
+
+                <div class="project-links">
+                    <a href="https://github.com/andesanjay319-ui/Mini_project" target="_blank" class="btn github-btn">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/%20sanjay-kumar-andhe-622582382" target="_blank" class="btn linkedin-btn">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <figure>
+                    <img src="/assets/smart port.jpg">
+                </figure>
+                <h3>Major Project on Smart Sports Field Usage Monitor</h3>
+
+                <div class="project-links">
+                    <a href="https://github.com/andesanjay319-ui/Major_Project" target="_blank" class="btn github-btn">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/%20sanjay-kumar-andhe-622582382" target="_blank" class="btn linkedin-btn">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <figure>
+                    <img src="/assets/payroll.jpg">
+                </figure>
+                <h3> CUI_Project on payroll</h3>
+
+                <div class="project-links">
+                    <a href="https://github.com/andesanjay319-ui/CUI_Project" target="_blank" class="btn github-btn">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/posts/sanjay-kumar-andhe-622582382_my-java-mini-project-activity-7389658625411088384-Nb5e?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF5ptPoBkV0WcJHbNkP4bK5VVa5AXHekXaM" target="_blank" class="btn linkedin-btn">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <figure>
+                    <img src="/assets/retail shop.jpg">
+                </figure>
+                <h3>GUI_Project on Shop Management System</h3>
+
+                <div class="project-links">
+                    <a href="https://github.com/andesanjay319-ui/GUI_Project" target="_blank" class="btn github-btn">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/%20sanjay-kumar-andhe-622582382" target="_blank" class="btn linkedin-btn">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<!-- ================= CONTACT SECTION ================= -->
+<section id="contact" class="contact-section">
+    <div class="container">
+        <h2>Get In Touch</h2>
+        <center>
+                <h4>Sanjaykumar Andhe</h4>
+        </center>
+
+        <div class="contact-actions">
+            <a href="mailto:andesanjay319@gmail.com" class="btn btn-primary btn-large">
+               <center>Send Message</center> 
+            </a>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <p>&copy; <span id="current-year">2025</span> Sanjay Kumar Andhe</p>
+            <div class="footer-links">
+                <a href="#about">About</a> |
+                <a href="#projects">Projects</a> |
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
